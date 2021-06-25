@@ -1,0 +1,322 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1">
+        <title>Dashboard UI Template</title>
+        
+        <!-- css assets -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/styles/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    </head>
+    <body>
+        <!-- Sidebar -->
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="ti-apple"></i>
+                            </span>
+                            <span class="title">
+                                <h2>
+                                    Brand Name
+                                </h2>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="ti-home"></i>
+                            </span>
+                            <span class="title">
+                               Dashboard
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="ti-user"></i>
+                            </span>
+                            <span class="title">
+                               Customers
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="ti-email"></i>
+                            </span>
+                            <span class="title">
+                               Message
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="ti-help"></i>
+                            </span>
+                            <span class="title">
+                               Help
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="ti-settings"></i>
+                            </span>
+                            <span class="title">
+                               Settings
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="ti-key"></i>
+                            </span>
+                            <span class="title">
+                               Password
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <i class="ti-shift-right"></i>
+                            </span>
+                            <span class="title">
+                               Sign Out
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Header -->
+
+        <!-- Main Content -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle" onclick="toggleMenu()">
+                    <i class="ti-menu"></i>
+                </div>
+                <div class="search">
+                    <label for="search">
+                        <input type="text" placeholder="Search here">
+                        <i class="ti-search"></i>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="assets/images/Feby.PNG" alt="user-profile-img">
+                </div>
+            </div>
+
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">
+                            1,042
+                        </div>
+                        <div class="cardName">
+                            Daily Views
+                        </div>
+                    </div>
+                        <div class="iconBox">
+                            <i class="ti-eye"></i>
+                        </div>
+                    </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">
+                            2,054
+                        </div>
+                        <div class="cardName">
+                            Sales
+                        </div>
+                    </div>
+                        <div class="iconBox">
+                            <i class="ti-shopping-cart"></i>
+                        </div>
+                </div>
+            
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">
+                            154
+                        </div>
+                        <div class="cardName">
+                            Comments
+                        </div>
+                    </div>
+                        <div class="iconBox">
+                            <i class="ti-comments-smiley"></i>
+                        </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">
+                            Rp. 1.251.000
+                        </div>
+                        <div class="cardName">
+                            Earning
+                        </div>
+                    </div>
+                        <div class="iconBox">
+                            <i class="ti-money"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent Orders</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td>Payment</td>
+                            <td>Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Logitech G29</td>
+                            <td>Rp. 4.150.000</td>
+                            <td>Paid</td>
+                            <td><span class="status delivered">
+                                Delivered
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>Alpha Tauri Polo Shirt</td>
+                            <td>Rp. 1.500.000</td>
+                            <td>Due</td>
+                            <td><span class="status pending">
+                                Pending
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>Red Bull Max Cap</td>
+                            <td>Rp. 850.000</td>
+                            <td>Paid</td>
+                            <td><span class="status return">
+                                Return
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>Ferrari Mask</td>
+                            <td>Rp. 250.000</td>
+                            <td>Due</td>
+                            <td><span class="status inProgress">
+                                In Progress
+                            </span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+                    
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBox">
+                                        <img src="assets/images/Feby.jpg" alt="img-box">
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Feby Putri NC<br/><span>Indonesia</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBox">
+                                        <img src="assets/images/dinda.jpg" alt="img-box">
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Adhindha Firdausa R<br/><span>Indonesia</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBox">
+                                        <img src="assets/images/Ink.jpg" alt="img-box">
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Ink Waruntorn<br/><span>Thailand</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBox">
+                                        <img src="assets/images/Janhae.jpg" alt="img-box">
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Janhae<br/><span>Thailand</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBox">
+                                        <img src="assets/images/janploy.jpg" alt="img-box">
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Jan Ployshompoo<br/><span>Thailand</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBox">
+                                        <img src="assets/images/Puimekster.jpg" alt="img-box">
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4>Puimekster<br/><span>Thailand</span></h4>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+
+        <!-- Script -->
+        <script>
+            function toggleMenu() {
+                let toggle = document.querySelector('.toggle');
+                let navigation = document.querySelector('.navigation');
+                let main = document.querySelector('.main');
+                toggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+                main.classList.toggle('active');
+            }
+        </script>
+    </body>
+    </html>
